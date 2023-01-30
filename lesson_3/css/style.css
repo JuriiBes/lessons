@@ -1,0 +1,39 @@
+@import url("reset.css");
+
+* {
+  color: green;
+  padding-bottom: 5px;
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+}
+h2 span {
+  color: yellow;
+}
+div p {
+  color: blueviolet;
+}
+a {
+  color: violet;
+}
+.link {
+  color: teal;
+}
+.text p {
+  color: rgb(183, 106, 12);
+}
+#list {
+  color: red;
+}
+.par.lesson p {
+  color: pink;
+}
+.proba ~ p {
+  color: purple;
+}
+[class*="__inside"] {
+  color: grey;
+}
