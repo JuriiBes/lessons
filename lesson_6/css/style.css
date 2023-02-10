@@ -1,0 +1,86 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+.wrapper {
+  max-width: 1270px;
+  background-color: #ffffff;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 816px;
+  margin: 0 auto;
+}
+
+.first {
+  padding-top: 80px;
+}
+
+.part h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+  padding-bottom: 40px;
+}
+
+.part-text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.79;
+  color: #6C757D;
+  margin-bottom: 35px;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  margin: 80px 0;
+  font-size: 0;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.image-2 {
+  margin-left: 30px;
+}
+
+.end-part {
+  padding-bottom: 30px;
+}
+
+.link__page {
+  padding-bottom: 50px;
+}
+
+.link__button {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 8px;
+  padding: 16px 25px;
+  color: #ffffff;
+  background-color: #62c7f6;
+  border: 2px solid rgba(6, 29, 39, 0.832);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 10px rgba(6, 29, 39, 0.832);
+}
+
+.link__button:hover {
+  transition: all 0.3s ease;
+  color: rgba(224, 111, 18, 0.8);
+  background-color: rgba(98, 199, 246, 0.6);
+  border: 2px solid rgba(98, 199, 246, 0.6);
+  box-shadow: inset 0 0 10px rgba(6, 29, 39, 0.0);
+  outline: 5px solid rgba(6, 29, 39, 0.832);
+}
