@@ -59,7 +59,7 @@
 
 .speaker {
   background: url(../img/Rectangle.png) center / cover;
-  /* background-color: #F4F7FF; */
+  background-color: #F4F7FF;
   width: 100%;
   font-family: "Inter";
 }
