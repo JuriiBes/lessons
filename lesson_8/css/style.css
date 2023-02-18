@@ -1,0 +1,323 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+
+.header__container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+.header {
+  background: url(../img/bgtitle.png) center / cover no-repeat;
+  background-color: rgb(47, 45, 56);
+  width: 100%;
+  font-family: "Poppins";
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #F8F9FA;
+  padding-top: 36px;
+}
+
+.header__logo::first-letter {
+  font-size: 26px;
+  color: #83a604;
+}
+
+.header__content {
+  margin-top: 269px;
+  padding-bottom: 100px;
+}
+
+.sheader__content>* {
+  margin-bottom: 15px;
+}
+
+.header__content>*:last-child {
+  margin-bottom: 0;
+}
+
+.header__date {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #E5E5E5;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #F8F9FA;
+}
+
+.header__text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #E5E5E5;
+}
+
+
+
+/* !---------------------------------------------------Динамік */
+
+.speaker {
+  background: url(../img/Rectangle.png) center / cover;
+  background-color: #F4F7FF;
+  width: 100%;
+  font-family: "Inter";
+}
+
+.speaker__container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.speaker__img {
+  display: inline-block;
+  max-width: 272px;
+  margin-top: 80px;
+  margin-left: 179px;
+  vertical-align: top;
+}
+
+.speaker__img img {
+  width: 100%;
+}
+
+.speaker__info {
+  display: inline-block;
+  max-width: 570px;
+  padding: 145px 0;
+}
+
+.speaker__info>* {
+  margin-bottom: 13px;
+}
+
+.speaker__info>*:last-child {
+  margin-bottom: 0;
+}
+
+.speaker__price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #3056D3;
+  margin-bottom: 13px;
+}
+
+.speaker__name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #212B36;
+  margin-bottom: 15px;
+}
+
+.speaker__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #637381;
+  margin-bottom: 35px;
+}
+
+.speaker__text p {
+  margin-bottom: 8px;
+}
+
+.speaker__button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  background: #3056D3;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.speaker__button:hover {
+  transition: all 0.3s ease;
+  color: #212B36;
+  background: rgba(48, 86, 211, 0.7);
+}
+
+
+/* !---------------------------------------------------СПИСКИ */
+.list__page {
+  background: rgb(254, 255, 0);
+  background: linear-gradient(180deg, rgba(254, 255, 0, 0.9) 0%,
+      rgba(0, 255, 12, 0.9) 20%,
+      rgba(255, 252, 0, 0.7) 60%,
+      rgba(241, 119, 204, 0.9) 80%,
+      rgba(185, 136, 237, 0.9) 100%);
+  width: 100%;
+  font-family: "Inter";
+
+}
+
+.list__container {
+  max-width: 1200px;
+  padding: 50px 15px;
+  margin: 0 auto;
+}
+
+.list__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+
+.list__text {
+  min-height: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #2d353b;
+  position: relative;
+}
+
+.list__text:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+[class*="-bg"] {
+  display: inline-block;
+  width: 320px;
+  margin-left: 28px;
+}
+
+[class*="__style"] {
+  margin-bottom: 50px;
+}
+
+.dots:nth-child(2n) {
+  color: #a80f12;
+}
+
+.dots::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #3056D3;
+  top: 4px;
+  margin-left: -18px;
+  transition: all 0.3s ease;
+}
+
+.dots:hover::before {
+  transition: all 0.3s ease;
+  transform: scale(1.5);
+}
+
+.check-blue:nth-child(3n) {
+  color: #bcbf07;
+}
+
+.check-blue::before {
+  content: url(../img/check-blue.png)"";
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  top: -2px;
+  transition: all 0.3s ease;
+}
+
+.check-blue:hover::before {
+  transition: all 0.3s ease;
+  transform: rotate(-90deg);
+}
+
+.check-green:nth-child(3n-2) {
+  color: #0e7695;
+}
+
+.check-green::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/check-green.png) no-repeat;
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  top: -2px;
+  transition: all 0.3s ease;
+}
+
+.check-green:hover::before {
+  transition: all 0.3s ease;
+  transform: rotate(-90deg) scale(1.5);
+}
+
+.xmark::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/xmark.png) no-repeat;
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  top: -2px
+}
+
+.xmark:hover::before {
+  transition: all 0.3s ease;
+  transform: rotate(315deg) scale(1.5);
+}
+
+.arrow::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow.png) no-repeat;
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  top: -2px;
+  transition: all 0.3s ease;
+}
+
+.arrow::after {
+  content: ";)";
+  margin-left: 8px;
+}
+
+.arrow:hover::before {
+  transition: all 0.3s ease;
+  transform: rotate(30deg);
+  top: -16px;
+  left: 8px;
+}
+
+.star::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/star.png) no-repeat;
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  top: -2px;
+  transition: all 0.3s ease;
+}
+
+.star:hover::before {
+  transition: all 0.3s ease;
+  transform: rotate(90deg);
+}
