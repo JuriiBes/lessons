@@ -202,6 +202,7 @@
 
 [class*="__style"] {
   margin-bottom: 50px;
+  /* vertical-align: top; Це якщо без Flex*/
 }
 
 .dots:nth-child(2n) {
