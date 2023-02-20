@@ -43,6 +43,8 @@ h2 {
 
 .logo__items {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
 }
 
@@ -53,6 +55,7 @@ h2 {
 .icon__items {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
 }
 
