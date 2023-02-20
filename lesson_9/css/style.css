@@ -1,0 +1,155 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+body {
+  background-color: grey;
+}
+
+[class*="__container"] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: aqua;
+  margin-bottom: 50px;
+}
+
+.content__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content__image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.image__item img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.content__logo {
+  margin-bottom: 100px;
+}
+
+.logo__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__icon {
+  margin-bottom: 100px;
+}
+
+.icon__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.design__element {
+  margin-bottom: 100px;
+}
+
+.backgr {
+  margin: 0 auto 50px;
+  background-image: url(../img/background/singlepricing.png);
+  width: 360px;
+  height: 504px;
+}
+
+.backgr p {
+  font-size: 25px;
+  font-weight: 300;
+  color: aqua;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: aqua;
+  margin-bottom: 50px;
+}
+
+.bef__aft {
+  margin: 0 auto 50px;
+  position: relative;
+  width: 196px;
+  height: 200px;
+}
+
+.bef__aft::before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 209px;
+  top: -34px;
+  left: 36%;
+  background: #13C296;
+  border-radius: 45px;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.bef__aft::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 204px;
+  top: -10px;
+  left: 31%;
+  background: #3056D3;
+  border-radius: 45px;
+  transform: rotate(-45deg);
+}
+
+.bef__aft img {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.design__items {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.design__item {
+  display: flex;
+  flex: 1 1 32%;
+  border: 3px solid black;
+  height: 300px;
+}
+
+.one {
+  background: url(../img/background/DottedShape.svg) center no-repeat, rgb(211, 206, 206);
+}
+
+.twoo {
+  background: url(../img/background/Oval_blue.svg) 0 100% no-repeat, url(../img/background/Oval.svg) 100% 0 no-repeat;
+}
+
+.three {
+  background: url(../img/background/shape.svg) 100% 0 no-repeat, #090E34;
+}
+
+.p__s {
+  font-size: 35px;
+  font-weight: 700;
+  color: aqua;
+}
