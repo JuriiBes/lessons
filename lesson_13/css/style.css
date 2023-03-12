@@ -11,10 +11,9 @@ body {
 }
 .cube {
     position: relative;
-    display: flex;
     width: 250px;
     height: 250px;
-    margin: 300px auto;
+    margin: 200px auto;
 }
 .side-one,
 .side-two,
