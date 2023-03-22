@@ -369,12 +369,9 @@ main {
 .form__item input:valid ~ label {
     top: 0;
     font-size: 0.75rem;
-     background-color: #ffffff !important;
+     background-color: #ffffff;
 }
-.form__item input:focus,
-.form__item input:valid {
-    background-color: #ffffff !important;
-}
+
 .form__button {
     padding: 0.625rem;
     position: relative;
