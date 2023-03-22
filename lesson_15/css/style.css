@@ -371,6 +371,7 @@ main {
     font-size: 0.75rem;
      background-color: #ffffff !important;
 }
+.form__item input:focus,
 .form__item input:valid {
     background-color: #ffffff !important;
 }
