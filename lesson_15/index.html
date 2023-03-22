@@ -167,11 +167,13 @@
               <p>Enter your email to get the laterst news</p>
             </div>
             <div class="footer__form form">
-              <form method="GET" enctype="multipart/form-data" action="#" class="form__item">
-                <input type="email" id="mail" required="">
-                <label for="mail">Email Address</label>
+              <form method="GET" enctype="multipart/form-data" action="#" class="form__items">
+                <div class="form__item">
+                  <input type="email" id="mail" name="mail" autocomplete="off" required>
+                  <label for="mail">Email Address</label>
+                </div>
+                <button class="form__button" type="submit"><img src="img/vector.svg" alt="image button"></button>
               </form>
-              <button class="form__button" type="button"><img src="img/vector.svg" alt="image button"></button>
             </div>
 
             <div class="footer__social social">
