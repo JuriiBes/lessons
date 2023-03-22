@@ -260,7 +260,6 @@ main {
 }
 .achievement__item {
     display: flex;
-
     gap: 7.5rem;
     align-items: center;
 }
@@ -334,6 +333,11 @@ main {
     border-radius: 50%;
     background: #333333;
 }
+.form__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .form__item {
     position: relative;
 }
@@ -369,7 +373,7 @@ main {
 .form__item input:valid ~ label {
     top: 0;
     font-size: 0.75rem;
-     background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .form__button {
