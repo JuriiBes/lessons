@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Domashka lesson 16</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+      <div class="billing">
+        <div class="billing__container">
+          <div class="billing__body">
+            <h2 class="billing__title">Billing Details</h2>
+            <div class="billing__form form">
+              <form action="#" method="get" class="form__data">
+                <div class="form__items">
+
+                  <div class="form__item">
+                    <input type="text" name="first_name" placeholder="First name*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="last_name" placeholder="Last name*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="address" placeholder="Address*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="address_line" placeholder="Address line 2" autocomplete="off">
+                  </div>
+
+                  <div class="form__item select">
+                    <select name="country" required>
+                      <option value>Country*</option>
+                      <option value="usa">USA</option>
+                      <option value="canada">Canada</option>
+                      <option value="ukraine">Ukraine</option>
+                      <option value="itali">Itali</option>
+                      <option value="poland">Poland</option>
+                    </select>
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="city" placeholder="City/Town*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="postcode" placeholder="Postcode/ZIP*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="tel" name="phone" placeholder="Phone*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="text" name="postcode_2" placeholder="Postcode/ZIP*" required autocomplete="off">
+                  </div>
+
+                  <div class="form__item">
+                    <input type="tel" name="phone_2" placeholder="Phone*" required autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="form__item">
+                  <textarea name="information" id="information" autocomplete="off"
+                    placeholder="Additional information"></textarea>
+                </div>
+              </form>
+
+              <form action="#" method="get" class="form-radio">
+                <div class="form-radio__data">
+                  <input type="radio" name="registration" id="reg" required checked class="form-radio__input">
+                  <label for="reg" class="form-radio__label">Create Account</label>
+                </div>
+                <div class="form-radio__data">
+                  <input type="radio" name="registration" id="ship" required class="form-radio__input">
+                  <label for="ship" class="form-radio__label">Ship to a different address?</label>
+                </div>
+              </form>
+
+              <form action="#" method="get" class="discount">
+                <div class="discount__title">Apply Coupon to get discount!</div>
+                <div class="discount__data">
+                  <input type="text" class="discount__input" placeholder="Coupon code">
+                  <button type="submit" class="discount__button">Apply code</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="crisp">
+        <div class="crisp__container">
+          <div class="crisp__shiping">
+            <div class="crisp__title">Shipping Address</div>
+            <form action="#" method="post" class="crisp__form address">
+
+              <div class="address__items">
+                <div class="address__item">
+                  <label for="mail-01" class="address__required">Email Address</label>
+                  <input type="email" id="mail-01" required name="email" autocomplete="off">
+                </div>
+
+                <div class="address__item">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" required name="password" autocomplete="off">
+                </div>
+
+                <div class="address__item">
+                  <label for="post-code">Zip/Postal Code</label>
+                  <input type="text" id="post-code" required name="post-code" autocomplete="off">
+                </div>
+              </div>
+
+              <div class="address__info">You already have an account with us. Sign in or continue as guest.</div>
+
+              <div class="address__submit submit">
+                <button type="submit" class="submit__button">Login</button>
+                <a href="#" class="submit__forgot">Forgot Your Password?</a>
+              </div>
+
+            </form>
+            <form action="#" method="get" class="crisp__form registr">
+
+              <div class="registr__item">
+                <label for="name_first" class="registr__required">First Name</label>
+                <input type="text" id="name_first" name="name_first" required autocomplete="off">
+              </div>
+
+              <div class="registr__item">
+                <label for="name_last" class="registr__required">Last Name</label>
+                <input type="text" id="name_last" name="name_last" required autocomplete="off">
+              </div>
+
+              <div class="registr__item">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" autocomplete="off">
+              </div>
+
+              <div class="registr__item">
+                <label for="street-1" class="registr__required">Street Address</label>
+                <div class="registr__street">
+                  <input type="text" id="street-1" name="street-1" required autocomplete="off">
+                  <input type="text" id="street-2" name="street-2" required autocomplete="off">
+                  <input type="text" id="street-3" name="street-3" required autocomplete="off">
+                </div>
+              </div>
+
+              <div class="registr__item">
+                <label for="country" class="registr__required">Country</label>
+                <input type="text" id="country" name="country-crips" required autocomplete="off">
+              </div>
+
+              <div class="registr__item item-select">
+                <label for="state" class="registr__required">State/Province</label>
+                <select name="state" id="state" class="registr__select">
+                  <option value>Please select a region, state or province</option>
+                  <option value="state">state</option>
+                  <option value="region">region</option>
+                  <option value="province">province</option>
+                </select>
+              </div>
+            </form>
+
+          </div>
+
+          <div class="crisp__cash">
+            <div class="crisp__title">Shipping Methods</div>
+            <form action="#" method="get" class="crisp__form methods">
+
+              <div class="methods__radio">
+                <div class="methods__items items-border">
+                  <div class="methods__item">
+                    <input type="radio" name="5baks" id="baks5" checked required value="5baks" class="methods__input">
+                    <label for="baks5" class="methods__label">$ 5.00</label>
+                  </div>
+                  <p>Fixed</p>
+                  <p>Flat Rate</p>
+                </div>
+
+                <div class="methods__items">
+                  <div class="methods__item">
+                    <input type="radio" name="10baks" id="baks10" required value="10_baks" class="methods__input">
+                    <label for="baks10" class="methods__label">$ 10.00</label>
+                  </div>
+                  <p>Table Rate</p>
+                  <p>Best Way</p>
+                </div>
+              </div>
+
+              <div class="methods__footer">
+                <button type="submit" class="radio-items__button">Next</button>
+                <a href="#">Back</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
