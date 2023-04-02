@@ -107,25 +107,25 @@
               <div class="address__items">
                 <div class="address__item">
                   <label for="mail-01" class="address__required">Email Address</label>
-                  <input type="email" id="mail-01" required name="email" autocomplete="off">
+                  <input type="email" id="mail-01" required name="email" autocomplete="off" tabindex="1">
                 </div>
 
                 <div class="address__item">
                   <label for="password">Password</label>
-                  <input type="password" id="password" required name="password" autocomplete="off">
+                  <input type="password" id="password" required name="password" autocomplete="off" tabindex="2">
                 </div>
 
                 <div class="address__item">
                   <label for="post-code">Zip/Postal Code</label>
-                  <input type="text" id="post-code" required name="post-code" autocomplete="off">
+                  <input type="text" id="post-code" required name="post-code" autocomplete="off" tabindex="3">
                 </div>
               </div>
 
               <div class="address__info">You already have an account with us. Sign in or continue as guest.</div>
 
               <div class="address__submit submit">
-                <button type="submit" class="submit__button">Login</button>
-                <a href="#" class="submit__forgot">Forgot Your Password?</a>
+                <button type="submit" class="submit__button" tabindex="4">Login</button>
+                <a href="#" class="submit__forgot" tabindex="5">Forgot Your Password?</a>
               </div>
 
             </form>
@@ -133,36 +133,36 @@
 
               <div class="registr__item">
                 <label for="name_first" class="registr__required">First Name</label>
-                <input type="text" id="name_first" name="name_first" required autocomplete="off">
+                <input type="text" id="name_first" name="name_first" required autocomplete="off" tabindex="6">
               </div>
 
               <div class="registr__item">
                 <label for="name_last" class="registr__required">Last Name</label>
-                <input type="text" id="name_last" name="name_last" required autocomplete="off">
+                <input type="text" id="name_last" name="name_last" required autocomplete="off" tabindex="7">
               </div>
 
               <div class="registr__item">
                 <label for="company">Company</label>
-                <input type="text" id="company" name="company" autocomplete="off">
+                <input type="text" id="company" name="company" autocomplete="off" tabindex="8">
               </div>
 
-              <div class="registr__item">
+              <div class=" registr__item">
                 <label for="street-1" class="registr__required">Street Address</label>
                 <div class="registr__street">
-                  <input type="text" id="street-1" name="street-1" required autocomplete="off">
-                  <input type="text" id="street-2" name="street-2" required autocomplete="off">
-                  <input type="text" id="street-3" name="street-3" required autocomplete="off">
+                  <input type="text" id="street-1" name="street-1" required autocomplete="off" tabindex="9">
+                  <input type="text" id="street-2" name="street-2" required autocomplete="off" tabindex="10">
+                  <input type="text" id="street-3" name="street-3" required autocomplete="off" tabindex="11">
                 </div>
               </div>
 
               <div class="registr__item">
                 <label for="country" class="registr__required">Country</label>
-                <input type="text" id="country" name="country-crips" required autocomplete="off">
+                <input type="text" id="country" name="country-crips" required autocomplete="off" tabindex="12">
               </div>
 
               <div class="registr__item item-select">
                 <label for="state" class="registr__required">State/Province</label>
-                <select name="state" id="state" class="registr__select">
+                <select name="state" id="state" class="registr__select" tabindex="13">
                   <option value>Please select a region, state or province</option>
                   <option value="state">state</option>
                   <option value="region">region</option>
@@ -180,7 +180,8 @@
               <div class="methods__radio">
                 <div class="methods__items items-border">
                   <div class="methods__item">
-                    <input type="radio" name="cash" id="baks5" checked required value="5baks" class="methods__input">
+                    <input type="radio" name="cash" id="baks5" checked required value="5baks" class="methods__input"
+                      tabindex="14">
                     <label for="baks5" class="methods__label">$ 5.00</label>
                   </div>
                   <p>Fixed</p>
@@ -189,7 +190,8 @@
 
                 <div class="methods__items">
                   <div class="methods__item">
-                    <input type="radio" name="cash" id="baks10" required value="10_baks" class="methods__input">
+                    <input type="radio" name="cash" id="baks10" required value="10_baks" class="methods__input"
+                      tabindex="15">
                     <label for="baks10" class="methods__label">$ 10.00</label>
                   </div>
                   <p>Table Rate</p>
