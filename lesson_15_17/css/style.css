@@ -55,10 +55,6 @@ main {
     background-color: #333333;
     transition: all 0.3s ease;
 }
-.nav a:hover::after {
-    width: 100%;
-    left: 0;
-}
 
 .contact__button {
     margin-left: 3.375rem;
@@ -76,8 +72,15 @@ main {
     line-height: 1.5;
     transition: all 0.3s ease;
 }
-.button a:hover {
-    background-color: #566093;
+
+@media (any-hover: hover) {
+    .nav a:hover::after {
+        width: 100%;
+        left: 0;
+    }
+    .button a:hover {
+        background-color: #566093;
+    }
 }
 @media (max-width: 62.4875rem) {
     .header__body {
@@ -490,6 +493,7 @@ main {
     line-height: 1.6;
     color: #9c9c9c;
 }
+
 @media (max-width: 74.9875rem) {
     .achievement__item {
         gap: 5rem;
@@ -628,11 +632,8 @@ main {
 .form__button {
     padding: 0.625rem;
     position: relative;
-    top: -0.3125rem;
+    top: -5px;
     transition: transform 0.3s ease;
-}
-.form__button:hover {
-    transform: translateY(0.625rem);
 }
 
 .footer__social {
@@ -663,9 +664,6 @@ main {
     position: relative;
     z-index: 50;
 }
-.social__link:hover::after {
-    background: rgba(44, 56, 120, 0.9);
-}
 
 .social__link::after {
     content: "";
@@ -679,8 +677,20 @@ main {
     border: 0.0625rem solid #d9d9d9;
     transition: background 0.3s ease;
 }
-
-@media (max-width: 60.6125rem) {
+@media (any-hover: hover) {
+    .form__button:hover {
+        transform: translateY(0.625rem);
+    }
+    .social__link:hover::after {
+        background: rgba(44, 56, 120, 0.9);
+    }
+}
+@media (max-width: 991.8px) {
+    .form__button {
+        top: 5px;
+    }
+}
+@media (max-width: 969.8px) {
     .footer {
         padding: 2rem 0;
     }
