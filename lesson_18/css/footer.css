@@ -1,0 +1,120 @@
+/* *___________________________________Footer */
+
+.footer {
+    padding: 100px 0;
+    background: #212529;
+}
+.footer__container {
+}
+.footer__body {
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+}
+.footer__logo {
+    z-index: 0;
+    color: #f8f9fa;
+    transition: transform 0.3s;
+}
+.logo {
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list,
+.social__list,
+.footer__footer {
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+    line-height: 2.08;
+    color: rgba(248, 249, 250, 0.5);
+}
+.menu-footer__item,
+.social__item {
+    transition: color 0.3s;
+}
+.menu-footer__link {
+}
+.footer__social {
+}
+.social {
+}
+
+.social__link {
+}
+.footer__footer {
+    padding-top: 40px;
+    justify-content: space-between;
+    line-height: 1.67;
+}
+
+.footer__address {
+}
+.footer__mark {
+}
+@media (any-hover: hover) {
+    .footer__logo:hover {
+        transform: scale(1.03);
+    }
+    .menu-footer__item:hover {
+        color: rgb(248, 249, 250);
+    }
+    .social__item:hover {
+        color: rgb(248, 249, 250);
+    }
+}
+@media (max-width: 991.8px) {
+    .footer {
+        padding: 50px 0;
+    }
+    .footer__top {
+        padding-bottom: 25px;
+    }
+    .footer__footer {
+        padding-top: 25px;
+    }
+}
+@media (max-width: 699.8px) {
+    .footer__top {
+        position: relative;
+    }
+    .footer__logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -120%);
+    }
+}
+@media (max-width: 499.8px) {
+    .footer {
+        padding: 50px 0 25px;
+    }
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .menu-footer {
+        margin-top: 15px;
+    }
+    .footer__footer {
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer__top {
+        padding-bottom: 20px;
+    }
+    .footer__footer {
+        padding-top: 20px;
+    }
+    .footer__address,
+    .footer__mark {
+        max-width: 125px;
+    }
+}
