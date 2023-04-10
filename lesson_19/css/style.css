@@ -1063,7 +1063,7 @@ body {
 }
 @media (any-hover: hover) {
     .dananz__pictures:hover .dananz__img {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 }
 @media (max-width: 991.98px) {
