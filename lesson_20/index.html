@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Domashka lesson 20</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- * _________________________________________ Header -->
+    <header class="header">
+      <div class="header__container">
+        <div class="header__body">
+          <button class="header__burger">
+            <span></span>
+          </button>
+          <div class="header__logo">
+            <img src="img/icon/logo.svg" alt="logo">
+          </div>
+          <div class="header__menu menu">
+            <ul class="menu__items">
+              <li class="menu__item sub-menu">
+                <a href="" class="sub-menu__sign-in">SIGN IN</a>
+                <a href="" class="sub-menu__create-account">CREATE AN ACCOUNT</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__limk">home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__limk">Shop</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__limk">blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__limk">Sale</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__limk">contact us</a>
+              </li>
+            </ul>
+            <div class="menu__search">
+              <form action="#" enctype="multipart/form-data" class="menu__search-form">
+                <input type="search" id="input-search" name="input-search" autocomplete="off" class="menu__input-search"
+                  required>
+                <label for="input-search" class="menu__label-search">
+                  <img src="img/icon/search.svg" alt="icon" class="menu__icon-search">
+                  <span class="menu__text-search">search</span>
+                </label>
+              </form>
+            </div>
+          </div>
+
+          <div class="header__side-right right-side">
+            <div class="right-side__account">
+              <a href="" class="right-side__sign-in">SIGN IN</a>
+              <a href="" class="right-side__create-account">CREATE AN ACCOUNT</a>
+            </div>
+
+            <div class="right-side__search">
+              <button type="button" class="right-side__button">
+                <img src="img/icon/search.svg" alt="icon" class="right-side__icon-search">
+              </button>
+              <form action="#" enctype="multipart/form-data" class="right-side__block-search">
+                <label for="right-search" class="right-side__label-search">
+                  <img src="img/icon/search-dark.svg" alt="icon" class="right-side__icon-search">
+                </label>
+                <input type="search" id="right-search" name="input-search" autocomplete="off"
+                  class="right-side__input-search" required>
+                <button type="button" class="right-side__search-close">
+                </button>
+              </form>
+            </div>
+            <div class="right-side__block-cart">
+              <a href="" class="right-side__like"><img src="img/icon/like.svg" alt="" class="right-side__icon-like"></a>
+              <div class="right-side__shop-cart">
+                <a href="" class="right-side__cart">
+                  <img src="img/icon/cart.svg" alt="" class="right-side__icon-cart">
+                  <span class="right-side__number">0</span>
+                </a>
+                <a class="right-side__shoping-result">
+                  <div class="right-side__shoping-cart">Shopping Cart</div>
+                  <div class="right-side__money">0,00 EUR</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <main>
+      <!-- * _________________________________________ Head -->
+      <div class="head">
+        <div class="head__container">
+          <div class="head__body">
+            <div class="head__right-side">
+              <div class="head__pictures">
+                <img src="img/head/girl.webp" alt="image" class="head__img">
+              </div>
+              <div class="head__pictures">
+                <img src="img/head/girl2.webp" alt="image" class="head__img">
+              </div>
+            </div>
+            <div class="head__left-side">
+              <h1 class="head__title">SUMMER SALE GEt <span class="head__sale">30% OFF</span> On all dress.</h1>
+              <a href="#" class="head__button">shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Brand -->
+      <div class="brand">
+        <div class="brand__container">
+          <div class="brand__body">
+            <h3 class="brand__title">chose your brand</h3>
+            <div class="brand__items">
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/chanel.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/burberry.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/dior.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/fendi.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/versace.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/gucci.svg" alt="" class="brand__img">
+                </div>
+              </a>
+              <a href="#" class="brand__item">
+                <div class="brand__pictures">
+                  <img src="img/brends/armani.svg" alt="" class="brand__img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Advertising -->
+      <div class="advertising">
+        <div class="advertising__container">
+          <div class="advertising__body">
+
+            <div class="advertising__item">
+
+              <a href="#" class="advertising__pictures">
+                <img src="img/banners/choose.webp" alt="" class="advertising__img">
+              </a>
+              <div class="advertising__data">
+                <h2 class="advertising__title">choosе your look</h2>
+                <div class="advertising__text">See our clothing collections</div>
+                <a href="#" class="advertising__button">see offers</a>
+              </div>
+
+            </div>
+
+            <div class="advertising__item">
+
+              <a href="#" class="advertising__pictures">
+                <img src="img/banners/upto.webp" alt="" class="advertising__img">
+              </a>
+              <div class="advertising__data">
+                <h2 class="advertising__title">Up to <br>40% off</h2>
+                <div class="advertising__text">Special offers and great deals</div>
+                <a href="#" class="advertising__button">shop now</a>
+              </div>
+
+            </div>
+
+            <div class="advertising__item">
+
+              <a href="#" class="advertising__pictures">
+                <img src="img/banners/brand.webp" alt="" class="advertising__img">
+              </a>
+              <div class="advertising__data">
+                <h2 class="advertising__title">brand new style</h2>
+                <div class="advertising__text">Popular clothing brands</div>
+                <a href="#" class="advertising__button">see offers</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Shop -->
+      <div class="shop">
+        <div class="shop__container">
+          <div class="shop__body">
+            <div class="shop__aside-left left-aside">
+              <div class="left-aside__title">Shop Some Wear:</div>
+              <form action="#" method="get" class="left-aside__form">
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input1" name="asideinp" class="left-aside__input">
+                  <label for="aside-input1" class="left-aside__label">Best sellers</label>
+                </div>
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input2" name="asideinp" class="left-aside__input">
+                  <label for="aside-input2" class="left-aside__label">NEW Arivals</label>
+                </div>
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input3" name="asideinp" class="left-aside__input" checked>
+                  <label for="aside-input3" class="left-aside__label">TOP Women</label>
+                </div>
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input4" name="asideinp" class="left-aside__input">
+                  <label for="aside-input4" class="left-aside__label">Collection: Summer</label>
+                </div>
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input5" name="asideinp" class="left-aside__input">
+                  <label for="aside-input5" class="left-aside__label">Collection: spring</label>
+                </div>
+                <div class="left-aside__item">
+                  <input type="checkbox" id="aside-input6" name="asideinp" class="left-aside__input">
+                  <label for="aside-input6" class="left-aside__label">TREnding</label>
+                </div>
+              </form>
+            </div>
+
+            <div class="shop__catalog catalog">
+              <div class="catalog__items">
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item1.webp" alt="image" class="catalog__img">
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans </a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item2.webp" alt="image" class="catalog__img">
+                    <div class="catalog__sale">-30%</div>
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price">139,00 EUR</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item3.webp" alt="image" class="catalog__img">
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item6.webp" alt="image" class="catalog__img">
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item4.webp" alt="image" class="catalog__img">
+                    <div class="catalog__sale">-30%</div>
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price">139,00 EUR</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item5.webp" alt="image" class="catalog__img">
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item2.webp" alt="image" class="catalog__img">
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="catalog__item">
+                  <a href="#" class="catalog__pictures">
+                    <img src="img/shop/item7.webp" alt="image" class="catalog__img">
+                    <div class="catalog__sale">-30%</div>
+                  </a>
+                  <div class="catalog__data">
+                    <button type="button" class="catalog__categories">TOP women</button>
+                    <a href="#" class="catalog__name">Angels malu zip jeans slim black used</a>
+                    <div class="catalog__price">
+                      <div class="catalog__new-price">139,00 EUR</div>
+                      <div class="catalog__old-price">139,00 EUR</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="catalog__link">
+                <a href="#" class="catalog__button">load more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ After shop -->
+      <div class="after-shop">
+        <div class="after-shop__container">
+          <div class="after-shop__body">
+            <div class="after-shop__data">
+              <div class="after-shop__title">shoping without limits.</div>
+              <div class="after-shop__text">You can choose the best option for you, and it does not matter whether you
+                are
+                in Prague or San Francisco. We will deliver your purchase anywhere!</div>
+              <a href="" class="after-shop__button">shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Featured items & Most popular -->
+      <div class="featured-items">
+        <div class="featured-items__container">
+          <div class="featured-items__body">
+            <div class="featured-items__head">
+              <h3 class="featured-items__title"><a href="#" class="featured-items__link-title">Featured Items</a></h3>
+              <div class="featured-items__slide">
+                <span class="featured-items__arrow-left"></span>
+                <span class="featured-items__arrow-right"></span>
+              </div>
+            </div>
+            <div class="featured-items__items">
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item7.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item2.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item3.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item4.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item6.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="featured-items__body">
+            <div class="featured-items__head">
+              <h3 class="featured-items__title"><a href="#" class="featured-items__link-title">Most Popular</a></h3>
+              <div class="featured-items__slide">
+                <span class="featured-items__arrow-left"></span>
+                <span class="featured-items__arrow-right"></span>
+              </div>
+            </div>
+            <div class="featured-items__items">
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item1.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item7.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item5.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item3.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-items__item">
+                <a href="#" class="featured-items__pictures">
+                  <img src="img/shop/item2.webp" alt="image" class="featured-items__img">
+                </a>
+                <div class="featured-items__data">
+                  <button type="button" class="featured-items__categories">TOP women</button>
+                  <a href="#" class="featured-items__name">Angels malu zip jeans slim black used</a>
+                  <div class="featured-items__price">
+                    <div class="featured-items__new-price">139,00 EUR</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ After Most popular -->
+      <div class="after-most">
+        <div class="after-most__container">
+          <div class="after-most__body">
+
+            <div class="after-most__pictures">
+              <img src="img/banners/explore.webp" alt="image" class="after-most__img">
+            </div>
+
+            <div class="after-most__right-side">
+              <div class="after-most__title">EXPLORE THE BEST OF YOU.</div>
+              <div class="after-most__text">You can choose the best option for you, and it does not matter whether you
+                are in Prague or San Francisco.</div>
+              <div class="after-most__button">shop now</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Blog-->
+      <div class="blog">
+        <div class="blog__container">
+          <h3 class="blog__title"><a href="#" class="blog__link-title">Blog</a></h3>
+          <div class="blog__body">
+
+            <div class="blog__item">
+              <a href="#" class="blog__categories">Article</a>
+              <a href="#" class="blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+              <div class="blog__text">A large part of the business here is building up the "experience". Double-page
+                spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches
+                and sailing competitions. All of this builds up your perception of the brand - and additionally, it
+                costs money.</div>
+              <div class="blog__block-date"><a href="#" class="blog__date">21 January 2018 by guido</a></div>
+            </div>
+
+            <div class="blog__item">
+              <a href="#" class="blog__categories">TIPS</a>
+              <a href="#" class="blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+              <div class="blog__text">Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches
+                and sailing competitions. All of this builds up your perception of the brand - and additionally, it
+                costs money.</div>
+              <div class="blog__block-date"><a href="#" class="blog__date">21 January 2018 by guido</a></div>
+            </div>
+
+            <div class="blog__item">
+              <a href="#" class="blog__categories">TIPS</a>
+              <a href="#" class="blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+              <div class="blog__text">A large part of the business here is building up the "experience". Double-page
+                spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches
+                and sailing competitions. All of this builds up your perception of the brand - and additionally, it
+                costs money.</div>
+              <div class="blog__block-date"><a href="#" class="blog__date">21 January 2018 by guido</a></div>
+            </div>
+
+            <div class="blog__item">
+              <a href="#" class="blog__categories">Article</a>
+              <a href="#" class="blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+              <div class="blog__text">When selling 70% fewer shirts, however, there are fewer shirts on the market,
+                making
+                it more exclusive, and therefore worth the money, for those to whom it matters. </div>
+              <div class="blog__block-date"><a href="#" class="blog__date">21 January 2018 by guido</a></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- * _________________________________________ Footer advantages-->
+      <div class="advantages">
+        <div class="advantages__container">
+          <ul class="advantages__list">
+            <li class="advantages__item">Duties and Taxes Guaranteed</li>
+            <li class="advantages__item">Free Express Shipping</li>
+            <li class="advantages__item">Customer Love</li>
+            <li class="advantages__item">Easy Returns</li>
+            <li class="advantages__item">Secure Payment</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- * _________________________________________ Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+
+        <div class="footer__body">
+          <div class="footer__column">
+            <a href="" class="footer__logo"><img src="img/icon/logo.svg" alt="logo" class="footer__img-logo"></a>
+          </div>
+
+          <div class="footer__column column">
+            <button type="button" class="column__title title-after1">features</button>
+            <ul class="column__items menu-column1">
+              <li class="column__item"><a href="#" class="column__link">men</a></li>
+              <li class="column__item"><a href="#" class="column__link">Women</a></li>
+              <li class="column__item"><a href="#" class="column__link">boys</a></li>
+              <li class="column__item"><a href="#" class="column__link">girls</a></li>
+              <li class="column__item"><a href="#" class="column__link">new arrivals</a></li>
+              <li class="column__item"><a href="#" class="column__link">shoes</a></li>
+              <li class="column__item"><a href="#" class="column__link">cothes</a></li>
+              <li class="column__item"><a href="#" class="column__link">accessories</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column column">
+            <button type="button" class="column__title title-after2">Menu</button>
+            <ul class="column__items menu-column2">
+              <li class="column__item"><a href="#" class="column__link">About us</a></li>
+              <li class="column__item"><a href="#" class="column__link">contact us</a></li>
+              <li class="column__item"><a href="#" class="column__link">my account</a></li>
+              <li class="column__item"><a href="#" class="column__link">orders history</a></li>
+              <li class="column__item"><a href="#" class="column__link">MY WISHLIST</a></li>
+              <li class="column__item"><a href="#" class="column__link">BLOG</a></li>
+              <li class="column__item"><a href="#" class="column__link">LOGIN</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column column">
+            <button type="button" class="column__title title-after3">contact us</button>
+            <ul class="column__items menu-column3">
+              <li class="column__item">
+                <h5 class="column__subtitle">Address:</h5>
+                <p class="column__info-text">123 STREET NAME, CITY, ENGLAND</p>
+              </li>
+              <li class="column__item">
+                <h5 class="column__subtitle">Phone:</h5>
+                <p class="column__info-text">(123) 456-7890</p>
+              </li>
+              <li class="column__item">
+                <h5 class="column__subtitle">email:</h5>
+                <p class="column__info-text">MAIL@EXAMPLE.COM</p>
+              </li>
+              <li class="column__item">
+                <h5 class="column__subtitle">working days/hours:</h5>
+                <p class="column__info-text">MON - SUN / 9:00AM - 8:00PM</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column column">
+            <button type="button" class="column__title title-after4">follow us</button>
+            <ul class="column__items menu-column4">
+              <li class="column__item"><a href="#" class="column__social-link">
+                  <img src="img/icon/facebook.svg" alt="icon" class="column__social-logo">
+                  <span class="column__social-name">facebook</span>
+                </a>
+              </li>
+              <li class="column__item"><a href="#" class="column__social-link">
+                  <img src="img/icon/twitter.svg" alt="icon" class="column__social-logo">
+                  <span class="column__social-name">twitter</span>
+                </a>
+              </li>
+              <li class="column__item"><a href="#" class="column__social-link">
+                  <img src="img/icon/instagram.svg" alt="icon" class="column__social-logo">
+                  <span class="column__social-name">instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column column">
+            <h4 class="column__title">join us</h4>
+            <div class="column__before-column-text">Subscribe to our newsletters</div>
+            <form action="#" class="column__form">
+              <label for="footer-input" class="column__label-form"></label>
+              <input type="email" id="footer-input" autocomplete="off" placeholder="Email Address"
+                class="column__input-form">
+              <button type="submit" class="column__botton-form">Subscribe!</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__footer">© 2019. Crisp theme Developed by Belvg</div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
