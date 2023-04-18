@@ -2442,6 +2442,7 @@ input[type=search i] {
 }
 .blog {
   padding: 15px 0;
+  background-color: #F8F9FB;
 }
 @media (max-width: 991.98px) {
   .blog {
