@@ -2319,7 +2319,7 @@ input[type="search" i] {
     &__items {
     }
     // .column__item
-    &__item {
+        &__item {
         align-items: center;
         font-weight: 500;
         font-size: 13px;
@@ -2327,17 +2327,15 @@ input[type="search" i] {
         &:not(:last-child) {
             margin-bottom: 15px;
         }
-        @media (any-hover: hover) {
-            &:hover {
-                .column__link {
-                    color: #eb5757;
-                }
-            }
-        }
     }
     // .column__link
     &__link {
         transition: color 0.2s;
+        @media (any-hover: hover) {
+            &:hover {
+                color: #eb5757;
+            }
+        }
     }
     // .column__subtitle
     &__subtitle {
