@@ -2710,6 +2710,9 @@ input[type=search i] {
   line-height: 1.5;
   color: #000000;
 }
+.blog__text > p:not(:last-child) {
+  margin-bottom: 5px;
+}
 @media (max-width: 991.98px) {
   .blog__text {
     font-size: 13px;
