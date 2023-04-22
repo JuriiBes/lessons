@@ -652,6 +652,7 @@ body {
 @media (max-width: 61.99875em) {
   .head {
     margin-bottom: 1.5625rem;
+    height: 95vh;
   }
 }
 .head > .swiper-pagination-fraction {
@@ -687,7 +688,7 @@ body {
 }
 @media (max-width: 61.99875em) {
   .head > .swiper-pagination-fraction {
-    bottom: 1.25rem;
+    bottom: 1.5625rem;
   }
 }
 .head__pictures {
@@ -695,6 +696,11 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+@media (max-width: 61.99875em) {
+  .head__pictures {
+    height: 95vh;
+  }
 }
 .head__img {
   position: absolute;
@@ -721,11 +727,12 @@ body {
 @media (max-width: 61.99875em) {
   .head__container {
     padding-bottom: 4.375rem;
+    height: 95vh;
   }
 }
 @media (max-width: 40.62375em) {
   .head__container {
-    padding-bottom: 2.8125rem;
+    padding-bottom: 3.75rem;
   }
 }
 .head__date {
