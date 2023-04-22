@@ -47,7 +47,7 @@ body {
 	}
 	@media (max-width: em(991.98)) {
 		margin-bottom: rem(25);
-		height: 95vh;
+		height: 93vh;
 	}
 	& > .swiper-pagination-fraction {
 		display: block;
@@ -76,7 +76,7 @@ body {
 			padding: 0 15px;
 		}
 		@media (max-width: em(991.98)) {
-			bottom: rem(25);
+			bottom: rem(30);
 		}
 	}
 	// .head__swiper
@@ -92,7 +92,7 @@ body {
 		height: 100vh;
 		overflow: hidden;
 		@media (max-width: em(991.98)) {
-			height: 95vh;
+			height: 93vh;
 		}
 	}
 	// .head__img
@@ -112,11 +112,8 @@ body {
 		justify-content: flex-end;
 		padding-bottom: rem(100);
 		@media (max-width: em(991.98)) {
-			padding-bottom: rem(70);
-			height: 95vh;
-		}
-		@media (max-width: em(649.98)) {
-			padding-bottom: rem(60);
+			padding-bottom: rem(80);
+			height: 93vh;
 		}
 	}
 	// .head__date
