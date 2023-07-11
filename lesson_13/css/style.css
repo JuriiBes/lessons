@@ -9,11 +9,18 @@ body {
     width: 100%;
     min-height: 100%;
 }
+h1{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+}
 .cube {
     position: relative;
     width: 250px;
     height: 250px;
-    margin: 200px auto;
+    top:30vh;
+    left:43vw;
 }
 .side-one,
 .side-two,
